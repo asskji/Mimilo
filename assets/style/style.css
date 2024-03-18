@@ -1,0 +1,805 @@
+@import url("../fonts.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+    box-sizing: border-box;
+
+    font-family: "Montserrat";
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    background-image: url(../img/background.jpg);
+    width: 100%;
+}
+.container .logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+    padding-top: 20px;
+    font-family: "Montserrat";
+    color: rgb(152,143,135);   
+}
+.container .logo .mm{
+    width: 40%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: black;
+}
+.container .nazv{
+    margin-top: 20%;
+    padding-left: 20px;
+}
+.container .pict1{
+    padding-top: 45px;
+}
+.container .nazvani{
+    font-size: 30px;
+    position: absolute;
+    margin-top: 50px;
+    font-family: 'Montserrat';
+    color: rgb(117,107,98);
+}
+.container .pict2{
+    margin-left: 40%;
+    margin-top: -200px;
+}
+.container .pict3{
+    margin-left: 15%;
+    margin-top: -174px;
+}
+.container .pict4{
+    margin-left: 82%;
+    margin-top: -90px;
+}
+.section-2 .container .text1{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+    color: rgb(152,143,135);
+}
+.section-2 .container .pict5{
+    margin-left: 75%;
+    margin-top: -12%;
+}
+
+.section-3 .container .line{
+    width: 60px;
+    height: 1px;
+    background-color: black;
+    margin-top: 10px;
+}
+.section-3 .container .group{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+}
+.section-3 .container .text2{
+    margin-left: 20px;
+    color: rgb(152,143,135);
+}
+.section-3 .container .group2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    color: rgb(152,143,135);
+}
+.section-3 .container .pict6{
+    margin-right: 150px;
+}
+.section-3 .container .text{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.section-3 .container .plus1{
+    font-size: 33px;
+    margin-left: 440px;
+    margin-top: -10%;
+}
+.section-3 .container .plus2{
+    font-size: 33px;
+    margin-left: 440px;
+    margin-top: -10%;
+}
+.section-4 .container .line{
+    width: 60px;
+    height: 1px;
+    background-color: black;
+    margin-top: 10px;
+}
+.section-4 .container .group3{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15%;
+}
+.section-4 .container .text3{
+    margin-left: 20px;
+    color: rgb(152,143,135);
+}
+.section-4 .container .text4{
+    margin-top: 45px;
+    color: rgb(117,107,98);
+}
+.section-4 .container .text5{
+    margin-top: 20px;
+    color: rgb(152,143,135);
+}
+.section-4 .container .photo .avatar{
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    margin-top: 40px;
+}
+
+.section-4 .container .name{
+    font-size: 14px;
+    text-decoration: underline;
+    margin-top: 39px;
+    cursor: pointer;
+    color: rgb(38, 38, 37);
+    margin-left: 80px;
+    margin-top: -40px;
+
+}
+.section-4 .container .name1{
+    font-size: 14px;
+    color: rgb(152,143,135);
+    margin-left: 80px;
+    margin-top: 10px;
+}
+.section-4 .container .pict9{
+    margin-left: 50%;
+    margin-top: -320px;
+}
+.section-4 .container .pict10{
+    margin-left: 25%;
+    margin-top: -230px;
+}
+.section-4 .container .pict11{
+    margin-left: 84%;
+    margin-top: -472px;
+}
+.section-5 .container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15%;
+    justify-content: space-between;
+}
+.section-5 .container .bloc1{
+    display: flex;
+    flex-direction: column;
+    color: rgb(152,143,135);
+}
+.section-5 .container .bloc1 .pict12{
+    margin-left: 110px;
+    margin-bottom: 20px;
+}
+.section-5 .container .bloc2{
+    display: flex;
+    flex-direction: column;
+    color: rgb(152,143,135);
+}
+.section-5 .container .bloc2 .pict13{
+    margin-left: 110px;
+    margin-bottom: 20px;
+}
+.section-5 .container .bloc3{
+    display: flex;
+    flex-direction: column;
+    color: rgb(152,143,135);
+}
+.section-5 .container .bloc3 .pict14{
+    margin-left: 110px;
+    margin-bottom: 20px;
+}
+.section-6 .container .nadpis{
+    font-size: 46px;
+    margin-top: 5%;
+    text-align: center;
+    color: rgb(189,180,171);
+}
+.section-6 .container .pict44{
+    margin-left: 20%;
+    margin-top: -35%;
+}
+.section-6 .container .nadpis2{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    margin-top: -20%;
+    margin-left: -50px;
+}
+.section-6 .container .button-auth{
+    padding: 15px 20px;
+    width: 15% ;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    margin-left: 39%;
+    margin-top: 50px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    color: white;
+    cursor: pointer;
+}
+
+.section-7 .container .inst{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 15%;
+    color: rgb(152,143,135);
+}
+.section-8 .container .text6{
+    color: rgb(85, 81, 77);
+}
+.section-7 .container .pict15{
+    margin-right: 10px;
+    margin-top: -3px;
+}
+.section-7 .container .collection{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+}
+.section-7 .container .pict16{
+    margin-right: 25px;
+}
+.section-7 .container .pict17{
+    margin-right: 25px;
+}
+.section-8 .container{
+    margin-top: 100px;
+    padding-bottom: 205px;
+}
+.section-8 .container .zagl{
+    margin-top: 10%;
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: rgb(103,93,84);
+}
+.section-8 .container .obhee{
+    display: flex;
+    flex-direction: row;
+    
+}
+.section-8 .container .stolbic2{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(69, 66, 64);
+}
+.section-8 .container .stolbic2 .kkk{
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.input-auth{
+    font-size: 25px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    color: black;
+    margin-left: 300px;
+}
+.section-8 .container .containerS{
+    margin-top: 30px;
+    margin-left: 300px;
+}
+.section-8 .container .pnkt{
+    margin-top: 30px;
+    margin-left: 300px;
+}
+.section-8 .container .button-auth2{
+    padding: 15px 15px;
+    width: 15% ;
+    border: 1px solid rgb(152,143,135);
+    border-radius: 20px;
+    margin-left: 39%;
+    margin-top: 50px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+.section-9{
+    background-image: url(../img/20.jpg);
+    width: 100%;
+}
+.section-9 .container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+    color: rgba(255, 255, 255, 0.642);
+    padding-bottom: 100px;
+}
+.section-9 .container .stolb1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.section-9 .container .stolb1 .zagolovok{
+    margin-top: 35%;
+    margin-bottom: 25px;
+}
+.section-9 .container .stolb1 .text7{
+    margin-bottom: 25px;
+}
+.section-9 .container .stolb2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.section-9 .container .stolb2 .text9{
+    margin-top: 35%;
+    margin-bottom: 15px;
+}
+.section-9 .container .stolb2 .text10{
+    margin-bottom: 15px;
+}
+.section-9 .container .stolb3{
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+}
+.section-9 .container .pict19{
+    margin-right: 20px;
+}
+.section-9 .container .pict20{
+    margin-right: 20px;
+}
+.section-9 .container .pict21{
+    margin-right: 20px;
+    margin-top: -2px;
+}
+.container{
+    width: 1200px;
+}
+.input-auth {
+    font-size: 25px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    color: black;
+    margin-left: 300px;
+    width: 50%;
+}
+@media (max-width: 1200px) {
+    .container{
+        width: 1140px;
+    }
+    .section-9 .container .stolb1{
+    margin-left: 25px;
+    }
+}
+@media (max-width: 992px) {
+    .container{
+        width: 98%;
+    }
+    .section-3 .container .group2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-3 .container .group2 .pict6{
+        margin-bottom: 40px;
+        margin-left: 150px;
+    }
+    .section-6 .container  .pict14{
+        margin-top: -50%;
+    }
+    .section-6 .container  .nadpis2{
+        margin-left: 55px;
+    }
+    .section-6 .container .button-auth{
+        margin-right: 100px;
+    }
+    .section-8 .container .stolbic2{
+        margin-left: -25%;
+    }
+    .section-9 .container .stolb2{
+        margin-right: 30%;
+        margin-left: 300px;
+    }
+    .section-9 .container .stolb3{
+        margin-right: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .section-6 .container .button-auth{
+        margin-left: 440px;
+    }
+    .section-4 .container .text5{
+        font-size: 15px;
+    }
+    .section-7 .container .pict16{
+        height: 50%;
+        width: 50%;
+    }
+    .section-7 .container .pict16{
+        width: 100px;
+        height: 100px;
+        margin-top: 400px;
+        margin-bottom: 200px;
+        margin-left: 300px;
+    }
+    .section-7 .container .pict17{
+        margin-left: -300px;
+    }
+    .header{
+        width: 102%;
+    }
+    .section-9{
+        width: 102%;
+    }
+    }
+@media (max-width: 768px) {
+    .container{
+        width:  740px;
+    }
+    .header{
+        width: 131%;
+    }
+    .section-9{
+        width: 131%;
+    }
+    .section-7 .container .pict16{
+        margin-left: 200px;
+    }
+    .section-7 .container .pict17{
+        margin-right: 55px;
+    }
+    .section-6 .container  .pict14{
+        margin-top: -80%;
+    }
+    .container {
+        width: 740px;
+        margin-left: 40px;
+    }
+    .section-4 .container .text5{
+        font-size: 16px;
+        width: 50%;
+    }
+    .section-4 .container  .pict11{
+        margin-left: 98%;
+    }
+    .section-8 .container .stolbic2{
+        margin-left: 30px;
+    }
+    .section-5 .container .bloc3{
+        margin-left: 30px;
+    }
+    .section-5 .container .bloc2{
+        margin-left: 30px;
+    }
+    .container .pict2{
+        margin-left: 350px;
+    }
+    .container .pict4{
+        margin-left: 100%;
+    }
+}
+@media (max-width: 576px) {
+    .container{
+        width:  98%;
+}
+.section-3 .container .group2{
+    margin-left: -50%;
+}
+.section-3 .container .group{
+    margin-left: -7%;
+}
+.section-4 .container .group3{
+    margin-left: -7%;
+}
+.section-4 .container .text4 {
+    margin-left: -7%;
+}
+.section-4 .container .text5 {
+    margin-left: -7%;
+    font-size: 11px;
+    width: 80%;
+}
+.section-5 .container {
+    flex-direction: column;
+    margin-left: 155px;
+}
+.section-5 .container .bloc1 .pict12 img{
+    margin-left: 5%;
+}
+.section-5 .container .bloc1 .podpis{
+    margin-left: 5%;
+}
+.section-5 .container .bloc2 .pict13{
+    margin-top: 20px;
+}
+.section-5 .container .bloc3 .pict14{
+    margin-top: 20px;
+}
+.section-4 .container .lolo{
+    margin-left: -6%;
+}
+.section-4 .container .pict10 img {
+    width: 30%;
+    margin-left: -5%;
+    margin-top: 13%;
+}
+.section-4 .container .pict9 img {
+    width: 90%;
+    margin-top: 0;
+    margin-left: -60px;
+}
+.section-4 .container .pict11 img {
+    width: 150px;
+}
+.section-6 .container .nadpis {
+    font-size: 15px;
+    margin-left: -470px;
+}
+.section-6 .container .pic44 img{
+    width: 30%;
+}
+.section-6 .container .nadpis {
+    font-size: 25px;
+    margin-left: -70px;
+}
+.section-6 .container .button-auth {
+    font-size: 10px;
+    margin-left: 280px;
+}
+.section-7 .container .inst {
+    margin-left: -65%;
+}
+.section-8 .container .obhee .zagl{
+    width: 100%;
+    margin-top: -30px;
+    margin-left: -40px;
+}
+.section-8 .container .text6{
+    margin-left: -40PX;
+    font-size: 18px;
+}
+.section-8 .container .obhee{
+    display: flex;
+    flex-direction: column;
+}
+.section-7 .container .pict17 img {
+    margin-left: -50px;
+    width: 300px;
+}
+.section-7 .container .pict18 img {
+    margin-left: 0px;
+    width: 300px;
+    margin-right: 80px;
+}
+.section-7 .container .pict18{
+    width: 90%;
+}
+.section-7 .container .pict16 img {
+    width: 300px;
+    MARGIN-TOP: -70px;
+    margin-left: -50px;
+}
+.section-8 .container .stolbic2 {
+    margin-left: -65%;
+}
+.section-8 .container .button-auth2 {
+    margin-left: 290px;
+    font-size: 11px;
+    text-align: center;
+}
+.section-3 .container .group2 .pict6 img{
+    width: 400px;
+}
+.section-3 .container .group2 .pict7 img{
+    width: 400px;
+}
+.section-3 .container .plus1 {
+    margin-left: 350px;
+}
+.section-3 .container .plus2 {
+    margin-left: 350px;
+}
+.section-9 .container .stolb2{
+    margin-left: -1%;
+}
+.container .pict1 img{
+    margin-left: -50px;
+    width: 25%;
+}
+.section-7 .container .collection {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.container .pict3 img {
+    margin-left: -10px;
+    margin-top: 20px;
+}
+.container .nazvani{
+    font-size: 20px;
+    margin-left: -60px;
+}
+.section-7 .container .collection{
+    display: flex;
+    flex-direction: row;
+}
+.container .pict2 {
+    margin-left: 200px;
+    padding-top: 90px;
+}
+.container .pict2 img {
+    width: 450px;
+}
+.section-2 .container .text1 {
+    margin-left: -25%;
+    font-size: 25px;
+}
+.section-3 .container .group2 {
+    margin-bottom: 40px;
+    margin-left: -150px;
+}
+.section-2 .container .pict5 img {
+    margin-left: -78px;
+    margin-top: -15px;
+}
+.container .pict4 {
+    margin-left: 520px;
+}
+.section-9 .container{
+    display: flex;
+    flex-direction: column;
+}
+.section-9 .container .stolb1{
+    margin-left: 25px;
+    margin-top: -30%;
+}
+.section-9 .container .stolb2 {
+    margin-left: 25px;
+    margin-top: -20%;
+}
+.section-9 .container .stolb3 {
+    margin-left: 35%;
+    margin-top: -10%;
+    display: flex;
+}
+.section-9 .container .pict19 {
+    margin-bottom: 20px;
+}
+.section-9 .container .pict20 {
+    margin-bottom: 20px;
+}
+.section-4 .container .pict11 {
+    padding-top: 140px;
+    margin-left: 480px;
+}
+.section-6 .container .pict44 img {
+    width: 350px;
+    margin-top: -500px;
+    margin-left: 150px;
+}
+.section-6 .container .nadpis {
+    font-size: 27px;
+    margin-left: -70px;
+}
+.section-6 .container .nadpis2 {
+    font-size: 13px;
+    margin-left: -30px;
+}
+.section-9 .container .stolb3 {
+    margin-left: 78%;
+    margin-top: -20%;
+    display: flex;
+}
+.container .logo .mm {
+    width: 5%;
+}
+.container .logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+    margin-left: -50px;
+}
+.section-8{
+    width: 576px;
+}
+.section-8 .container .obhee {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+.section-9 .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+}
+
+
+@media (max-width: 480px) {
+    .container{
+        width:  98%;
+    }
+    .container .logo {
+        margin-left: -40px;
+    }
+    .container .logo .mm {
+        width: 20%;
+    }
+    .container .pict2 img {
+        width: 370px;
+    }
+    .container .pict3 img {
+        width: 150px;
+        margin-top: 60px;
+    }
+    .container .pict4 img {
+        width: 100px;
+        margin-left: -50px;
+    }
+    .section-4 .container .pict9 img {
+        width: 220px;
+        margin-left: 10px;
+        margin-top: 120px;
+    }
+    .section-4 .container .pict10 img {
+        width: 100px;
+        margin-left: 50px;
+        margin-top: 150px;
+    }
+    .section-4 .container .pict11 img {
+        width: 50px;
+        margin-top: 200px;
+        margin-left: 10px;
+    }
+    .section-5 .container {
+        margin-left: 100px;
+    }
+    .section-6 .container .pict44 img {
+        margin-left: 100px;
+    }
+    .section-6 .container .nadpis {
+        margin-top: 40px;
+    }
+    .section-6 .container .button-auth {
+        margin-top: -2px;
+        margin-left: 250px;
+    }
+    .section-6 .container .nadpis2 {
+        margin-bottom: 20px;
+    }
+    .section-7 .container .inst {
+        margin-left: -80px;
+    }
+    .section-7 .container .pict17 img {
+        width: 250px;
+        margin-left: -70px;
+    }
+    .section-7 .container .pict18 img{
+        width: 250px;
+    }
+    .section-7 .container .pict16 img {
+        width: 250px;
+        margin-top: -120px;
+        margin-left: -90px;
+    }
+    .section-8 .container .button-auth2 {
+        margin-left: 150px;
+        width: 30%;
+    }
+}
